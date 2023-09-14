@@ -148,7 +148,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Karla Sanchez - ksanch7@gmail.com
-Website: karlasanchez.us
+
+Website - [karlasanchez.us](https://karlasanchez.us)
 
 Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://github.com/karlasanc/Online-Ordering-Database)
 
