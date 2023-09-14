@@ -20,9 +20,9 @@
 <!-- PROJECT LOGO -->
 <div align="center">
     <h3 align="center">Online Food Ordering Database</h3>
-  <a href="https://github.com/karlasanc/Online-Ordering-Database">
-    <img src="images/logo.png" alt="Logo" width="400" height="200">
-  </a>
+    <a href="https://github.com/karlasanc/Online-Ordering-Database">
+        <img src="images/logo.png" alt="Logo" width="400" height="200">
+    </a>
   <br>
   <br>
   <p align="center">
@@ -30,7 +30,7 @@
     <br>
     <a href="https://github.com/karlasanc/Online-Ordering-Database"><strong>Explore the docs »</strong></a>
     <br>
-    <a href="https://github.com/karlasanc/Online-Ordering-Database">View Demo</a>
+    <a href="https://screenpal.com/watch/cr1qlxV1onq">View Demo</a>
     ·
     <a href="https://github.com/karlasanc/Online-Ordering-Database/issues">Report Bug</a>
     ·
@@ -67,14 +67,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Online Ordering Database Screenshot][product-screenshot]]
+<img src="images/logo.png" alt="Logo" width="400" height="200">
 
 This is a pre-built relational database structure designed and implemented for an online food ordering application to facilitate seamless food ordering and delivery processes for a restaurant. The database is meant to stores, manages, and displays customer, restaurant, employee, product, order and payment information.
 
 Project create for CPT310: Database Systems & Management course at the University of Arizona Global Campus.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Built With
 
@@ -89,29 +86,36 @@ Project create for CPT310: Database Systems & Management course at the Universit
 <!-- GETTING STARTED -->
 ## Getting Started
 
-_For more details on schema, table, and column creation, please refer to the [Documentation-url]_
+_For more details on schema, table, and column creation, please refer to the [User Documentation](documentation/userguide.docx)._
+<br>
+_For a video walkthrough of the finished datatbase, please refer to [Video Demo](https://screenpal.com/watch/cr1qlxV1onq)._
 
 ### Prerequisites
 
 Ensure you have a phpMyAdmin account and that your MySQL database server are running. It is assumed that database users have their own setup and can access the database management system. 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 1. Download the food-ordering.sql & testDatabase.sql from the repository files before moving to the next step.<br>
-2. Create a new database schema for downloaded files.<br><br>
-[![User Guide Screenshot][userguide1-screenshot]]
+2. Create a new database schema for downloaded files.
+<img src="images/userguide1.png" alt="userguide1" width="50%"/>
 
-  a. Select New on the left-side menu to create new datatabase.<br>
-  b. Name the Database your own chosen name.<br>
-  c. Ensure utf8bb4_general_ci is selected from the collation drop down menu.<br>
-  d. Click Create.<br>
-4. Import Database files.<br><br>
-[![User Guide Screenshot][userguide2-screenshot]]
-  a. Ensure the new database is selected.<br>
-  b. Click the Import tab at the top menu.<br>
-  c. Ensure you are importing to the selected database.<br>
-  d. Select Choose File and select the database file you imported earlier on your PC and click Go.<br>
+- [a] Select New on the left-side menu to create new datatabase.
+- [b]  Name the Database your own chosen name.
+- [c] Ensure utf8bb4_general_ci is selected from the collation drop down menu.
+- [d] Click Create.
+
+3. Import Database files.
+<img src="images/userguide1.png" alt="userguide2" width="50%">
+
+- [a] Ensure the new database is selected.
+- [b] Click the Import tab at the top menu.
+- [c] Ensure you are importing to the selected database.
+- [d] Select Choose File and select the database file you imported earlier on your PC and click Go.
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,19 +143,14 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Karla Sanchez - ksanch7@gmail.com
+Website: karlasanchez.us
 
 Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://github.com/karlasanc/Online-Ordering-Database)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -184,4 +183,4 @@ Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://gi
 [product-screenshot]: images/logo.png
 [userguide1-screenshot]: images/userguide1.png
 [userguide2-screenshot]: images/userguide2.png
-[Documentation-url]: documentation/userguide.docx
+
