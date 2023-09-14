@@ -21,7 +21,7 @@
 <div align="center">
   <h3 align="center">Online Food Ordering Database</h3>
   <a href="https://github.com/karlasanc/Online-Ordering-Database">
-    <img src="images/foodorderingdb.png" alt="Logo" width="400" height="200">
+    <img src="images/logo.png" alt="Logo" width="400" height="200">
   </a>
   <br/>
   <br/>
