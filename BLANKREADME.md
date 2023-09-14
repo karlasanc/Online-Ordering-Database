@@ -17,8 +17,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <div align="center">
     <h3 align="center">Online Food Ordering Database</h3>
@@ -40,8 +38,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -56,11 +52,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -73,16 +67,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `karlasanc`, `Online-Ordering-Database`, `twitter_handle`, `karlasanc`, `email_client`, `email`, `Online Food Ordering Database`, `A prebuilt datatbase to jumpstart your online food ordering applications.`
+[![Online Ordering Database Screenshot][product-screenshot]]
 
 This is a pre-built relational database structure designed and implemented for an online food ordering application to facilitate seamless food ordering and delivery processes for a restaurant. The database is meant to stores, manages, and displays customer, restaurant, employee, product, order and payment information.
 
 Project create for CPT310: Database Systems & Management course at the University of Arizona Global Campus.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -95,62 +86,34 @@ Project create for CPT310: Database Systems & Management course at the Universit
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+_For more details on schema, table, and column creation, please refer to the [Documentation-url]_
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/karlasanc/Online-Ordering-Database.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Ensure you have a phpMyAdmin account and that your MySQL database server are running. It is assumed that database users have their own setup and can access the database management system. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 1. Download the food-ordering.sql & testDatabase.sql from the repository files before moving to the next step.<br>
 2. Create a new database schema for downloaded files.<br><br>
-   ![userguide1 image in repo](/assets/images/userguide1.png)<br>
+[![User Guide Screenshot][userguide1-screenshot]]
+
   a. Select New on the left-side menu to create new datatabase.<br>
   b. Name the Database your own chosen name.<br>
   c. Ensure utf8bb4_general_ci is selected from the collation drop down menu.<br>
   d. Click Create.<br>
 4. Import Database files.<br><br>
-   ![userguide1 image in repo](/assets/images/userguide2.png)<br>
+[![User Guide Screenshot][userguide2-screenshot]]
   a. Ensure the new database is selected.<br>
   b. Click the Import tab at the top menu.<br>
   c. Ensure you are importing to the selected database.<br>
   d. Select Choose File and select the database file you imported earlier on your PC and click Go.<br>
   
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -183,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Karla Sanchez - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Karla Sanchez - ksanch7@gmail.com
 
 Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://github.com/karlasanc/Online-Ordering-Database)
 
@@ -203,7 +166,6 @@ Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://gi
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/karlasanc/Online-Ordering-Database.svg?style=for-the-badge
 [contributors-url]: https://github.com/karlasanc/Online-Ordering-Database/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/karlasanc/Online-Ordering-Database.svg?style=for-the-badge
@@ -212,8 +174,14 @@ Project Link: [https://github.com/karlasanc/Online-Ordering-Database](https://gi
 [stars-url]: https://github.com/karlasanc/Online-Ordering-Database/stargazers
 [issues-shield]: https://img.shields.io/github/issues/karlasanc/Online-Ordering-Database.svg?style=for-the-badge
 [issues-url]: https://github.com/karlasanc/Online-Ordering-Database/issues
+
 [license-shield]: https://img.shields.io/github/license/karlasanc/Online-Ordering-Database.svg?style=for-the-badge
 [license-url]: https://github.com/karlasanc/Online-Ordering-Database/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/karlasanc
+
 [product-screenshot]: images/logo.png
+[userguide1-screenshot]: images/userguide1.png
+[userguide2-screenshot]: images/userguide2.png
+[Documentation-url]: documentation/userguide.docx
